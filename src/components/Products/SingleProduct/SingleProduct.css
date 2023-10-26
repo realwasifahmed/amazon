@@ -1,0 +1,23 @@
+.SingleProduct{
+    cursor: default;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+
+.left__img img{
+    width: 500px;
+}
+
+
+.singleProductContainer {
+  display: flex;
+  align-items: center;
+}
+
+.Loading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

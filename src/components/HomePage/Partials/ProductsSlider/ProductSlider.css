@@ -1,0 +1,28 @@
+.Container {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  transform: translateY(-30%);
+}
+.ProductSlider {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: scroll;
+  gap: 30px;
+}
+.ProductSlider::-webkit-scrollbar {
+  height: 5px;
+}
+.ProductSlider::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 25px;
+}
+.ProductSlider:hover::-webkit-scrollbar-thumb {
+  background-color: #b4b4b4;
+}

@@ -1,0 +1,28 @@
+.SingleProduct {
+  background-color: white;
+  cursor: pointer;
+}
+.product__details {
+  margin-top: 10px;
+}
+.deals__Tag {
+  background-color: #cc0c39;
+  color: white;
+  font-size: 15px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.deals___tag {
+  color: #cc0c39;
+  font-weight: bolder;
+}
+.product__prices {
+  margin: 5px 0px;
+  font-weight: 600;
+}
+
+.product___title {
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -1,0 +1,80 @@
+.cart__container {
+  min-height: 500px;
+  background-color: #eee;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.shop__Cart__Container {
+  background-color: #fff;
+  min-height: 400px;
+  width: 70%;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.shop__Cart__Container hr {
+  margin-top: 15px;
+}
+.Cart_Products{
+  margin-top: 10px;
+}
+.Cart_Products img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.Cart_Products {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Cart_Products h2 {
+  font-weight: 400;
+}
+.subtotal__price {
+  float: right;
+  margin-top: 10px;
+}
+
+.product___details button {
+  margin-top: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SubtotalBox {
+  background-color: white;
+  width: 360px;
+  height: 150px;
+  padding: 10px;
+  position: relative;
+}
+.SubtotalBox p {
+  display: block;
+}
+.SubtotalBox button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.sandBox-Container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
